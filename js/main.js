@@ -408,6 +408,29 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // ==========================================
+    // FAQ Accordion Functionality
+    // ==========================================
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        
+        question.addEventListener('click', function() {
+            const isActive = item.classList.contains('active');
+            
+            // Close all FAQ items
+            faqItems.forEach(faqItem => {
+                faqItem.classList.remove('active');
+            });
+            
+            // Open clicked item if it wasn't active
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        });
+    });
+    
+    // ==========================================
     // Console Welcome Message
     // ==========================================
     console.log('%c🛡️ The Security Specialist', 'font-size: 20px; font-weight: bold; color: #ca3b37;');
