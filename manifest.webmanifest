@@ -1,0 +1,73 @@
+{
+    "name": "The Security Specialist - Professional Security Solutions",
+    "short_name": "Security Specialist",
+    "description": "Professional CCTV, Gate Motors, Garage Doors, Access Control, Electric Fencing, Solar Systems, and Electrical Services",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#1e1e1e",
+    "theme_color": "#ca3b37",
+    "dir": "ltr",
+    "lang": "en",
+    "icons": [
+        {
+            "src": "/favicon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-192.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-512.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ],
+    "categories": ["business", "security", "utilities"],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Contact Us",
+            "short_name": "Contact",
+            "description": "Get in touch with The Security Specialist",
+            "url": "/#contact",
+            "icons": [
+                {
+                    "src": "/favicon-256x256.png",
+                    "sizes": "256x256"
+                }
+            ]
+        },
+        {
+            "name": "Services",
+            "short_name": "Services",
+            "description": "View our security services",
+            "url": "/#services",
+            "icons": [
+                {
+                    "src": "/favicon-256x256.png",
+                    "sizes": "256x256"
+                }
+            ]
+        }
+    ]
+}
